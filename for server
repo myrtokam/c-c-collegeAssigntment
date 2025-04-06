@@ -1,0 +1,15 @@
+ Δοκίμασε το:
+
+    Compile:
+
+gcc server.c -o server -lpthread
+
+    Τρέξε τον server:
+
+./server
+
+    Άνοιξε 2–3 clients ταυτόχρονα σε νέα terminals:
+
+./client
+
+✅ Θα βλέπεις ότι όλοι οι clients εξυπηρετούνται ταυτόχρονα, χωρίς αναμονή!
